@@ -953,7 +953,7 @@ nav {
 
 .contact-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 1.5rem;
     position: relative;
 }
@@ -1134,6 +1134,31 @@ footer {
     50% { transform: scale(1.15); opacity: 0; }
 }
 
+/* Floating Instagram Button */
+.instagram-float {
+    position: fixed;
+    bottom: 2rem;
+    left: 2rem;
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    box-shadow: 0 6px 20px rgba(225, 48, 108, 0.3);
+    z-index: 1000;
+    transition: var(--transition-mid);
+    text-decoration: none;
+}
+
+.instagram-float:hover {
+    transform: scale(1.1) translateY(-3px);
+    box-shadow: 0 8px 32px rgba(225, 48, 108, 0.5);
+}
+
 /* ============================================
    SCROLL-TO-TOP BUTTON
    ============================================ */
@@ -1312,7 +1337,15 @@ footer {
     }
 
     .contact-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .instagram-float {
+        left: 1rem;
+        bottom: 5.5rem;
+        width: 50px;
+        height: 50px;
+        font-size: 1.5rem;
     }
 
     .footer-content {
