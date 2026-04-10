@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Village Oil Mill | Raichur's Finest Wood Pressed Oils</title>
+    <meta name="description" content="Discover pure, traditional wood-pressed oils from Raichur. Village Oil Mill offers chemical-free Coconut, Safflower, and Groundnut oils crafted with age-old methods and delivered to your doorstep.">
+    <meta name="keywords" content="wood pressed oil, cold pressed oil, village oil mill, raichur, safflower oil, coconut oil, groundnut oil, organic oil, traditional oil">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- GSAP for Premium Animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+<body>
+
+    <!-- Cursor Glow (Desktop) -->
+    <div class="cursor-glow" id="cursorGlow"></div>
+
+    <!-- ======================
+         SPLASH SCREEN
+         ====================== -->
+    <div class="splash-screen" id="splashScreen">
+        <div class="splash-content">
+            <div class="splash-brand" id="splashBrand">
+                Village Oil Mill
+                <span>RAICHUR</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- ======================
+         HEADER / NAVIGATION
+         ====================== -->
+    <header id="header">
+        <div class="container">
+            <nav>
+                <a href="#home" class="logo">Village Oil Mill</a>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#process">Process</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- ======================
+             HERO SECTION
+             ====================== -->
+        <section class="hero" id="home">
+            <div class="hero-bg-image">
+                <img src="images/groundnut_bottle.jpg" alt="Village Oil Mill Premium Groundnut Oil" loading="eager">
+            </div>
+            <div class="container hero-content">
+                <div class="hero-badge">
+                    <i class="fas fa-seedling"></i>
+                    100% Pure · Wood Pressed · Chemical Free
+                </div>
+                <h1 class="reveal-text">Nature's <em>Purest</em><br>Essence in Every Drop</h1>
+                <p class="fade-up">Traditional wood-pressed oils from Raichur, crafted with age-old methods for your family's health. Nutrient-rich, unrefined, and full of natural goodness.</p>
+                <div class="hero-btns fade-up">
+                    <a href="#products" class="btn btn-primary">Explore Collection</a>
+                    <a href="#about" class="btn btn-outline">Our Story</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ======================
+             BRAND SHOWCASE BANNER
+             ====================== -->
+        <section class="brand-showcase">
+            <div class="container">
+                <div class="brand-showcase-inner">
+                    <img src="images/brand_collection.jpg" alt="Village Oil Mill - Complete Product Range" loading="lazy">
+                </div>
+                <div class="brand-tagline">
+                    <span><i class="fas fa-leaf"></i> Wood Pressed</span>
+                    <span><i class="fas fa-shield-alt"></i> Chemical Free</span>
+                    <span><i class="fas fa-truck"></i> Door Delivery</span>
+                    <span><i class="fas fa-hand-holding-heart"></i> 100% Pure</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ======================
+             PRODUCTS SECTION
+             ====================== -->
+        <section class="products" id="products">
+            <div class="container">
+                <h2 class="section-title">Our Premium Selection</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">Each oil is wood-pressed using traditional Ghana method, preserving natural nutrients and authentic flavors.</p>
+                
+                <div class="products-grid">
+                    <!-- Safflower Oil -->
+                    <div class="product-card reveal-card">
+                        <div class="product-img">
+                            <img src="images/safflower.jpg" alt="Wood Pressed Safflower Oil" loading="lazy">
+                            <div class="product-img-overlay"></div>
+                            <span class="product-tag"><i class="fas fa-leaf"></i> &nbsp;Pure</span>
+                        </div>
+                        <div class="product-info">
+                            <h3>Safflower Oil</h3>
+                            <p class="product-price">₹400 <span>/ Litre</span></p>
+                            <p class="product-desc">Rich in unsaturated fatty acids, perfect for a healthy heart and daily cooking.</p>
+                            <a href="https://wa.me/919986740765?text=Hi, I would like to order Wood Pressed Safflower Oil" class="btn" target="_blank" rel="noopener">
+                                <i class="fab fa-whatsapp"></i> Order Now
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Coconut Oil -->
+                    <div class="product-card reveal-card">
+                        <div class="product-img">
+                            <img src="images/coconut.jpg" alt="Wood Pressed Coconut Oil" loading="lazy">
+                            <div class="product-img-overlay"></div>
+                            <span class="product-tag"><i class="fas fa-leaf"></i> &nbsp;Pure</span>
+                        </div>
+                        <div class="product-info">
+                            <h3>Coconut Oil</h3>
+                            <p class="product-price">₹400 <span>/ Litre</span></p>
+                            <p class="product-desc">Pure, aromatic, and versatile. Ideal for skin, hair, and traditional South Indian dishes.</p>
+                            <a href="https://wa.me/919986740765?text=Hi, I would like to order Wood Pressed Coconut Oil" class="btn" target="_blank" rel="noopener">
+                                <i class="fab fa-whatsapp"></i> Order Now
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Groundnut Oil -->
+                    <div class="product-card reveal-card">
+                        <div class="product-img">
+                            <img src="images/groundnut_bottle.jpg" alt="Wood Pressed Groundnut Oil" loading="lazy">
+                            <div class="product-img-overlay"></div>
+                            <span class="product-tag"><i class="fas fa-leaf"></i> &nbsp;Best Seller</span>
+                        </div>
+                        <div class="product-info">
+                            <h3>Groundnut Oil</h3>
+                            <p class="product-price">₹350 <span>/ Litre</span></p>
+                            <p class="product-desc">High smoke point and rich nutty flavor. The traditional choice for deep frying and sautéing.</p>
+                            <a href="https://wa.me/919986740765?text=Hi, I would like to order Wood Pressed Groundnut Oil" class="btn" target="_blank" rel="noopener">
+                                <i class="fab fa-whatsapp"></i> Order Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ======================
+             PROCESS SECTION (How It's Made)
+             ====================== -->
+        <section class="process" id="process">
+            <div class="container">
+                <h2 class="section-title">How It's Made</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">Our age-old Ghana method ensures that every drop retains its natural vitamins and minerals.</p>
+
+                <div class="process-grid">
+                    <div class="process-step reveal-card">
+                        <span class="process-number">01</span>
+                        <div class="process-icon"><i class="fas fa-wheat-awn"></i></div>
+                        <h3>Select Seeds</h3>
+                        <p>Hand-picked, premium quality seeds sourced from local farms.</p>
+                    </div>
+                    <div class="process-step reveal-card">
+                        <span class="process-number">02</span>
+                        <div class="process-icon"><i class="fas fa-sun"></i></div>
+                        <h3>Sun Dry</h3>
+                        <p>Seeds are naturally sun-dried to remove moisture and enhance flavor.</p>
+                    </div>
+                    <div class="process-step reveal-card">
+                        <span class="process-number">03</span>
+                        <div class="process-icon"><i class="fas fa-gears"></i></div>
+                        <h3>Wood Press</h3>
+                        <p>Traditional Ghana (wooden press) extracts oil at low temperatures.</p>
+                    </div>
+                    <div class="process-step reveal-card">
+                        <span class="process-number">04</span>
+                        <div class="process-icon"><i class="fas fa-bottle-droplet"></i></div>
+                        <h3>Pure & Fresh</h3>
+                        <p>Filtered naturally & bottled fresh with zero chemicals or preservatives.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ======================
+             ABOUT SECTION
+             ====================== -->
+        <section class="about" id="about">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-text">
+                        <div class="about-label">Our Story</div>
+                        <h2>Rooted in <em>Tradition</em>, Made with Love</h2>
+                        <p>Established in 2024, Village Oil Mill was born from a desire to bring back the purity of traditional wood-pressed oils to modern kitchens.</p>
+                        <p>Located at the Dept of Processing and Food Engineering, CAE, UAS, Raichur, we combine age-old methods with scientific standards to ensure you get nothing but the best.</p>
+                        <ul class="about-features">
+                            <li><i class="fas fa-check"></i> Doorstep Delivery Available</li>
+                            <li><i class="fas fa-check"></i> NFC & Digital Payments Accepted</li>
+                            <li><i class="fas fa-check"></i> 100% Traditional Wood Press (Ghana)</li>
+                            <li><i class="fas fa-check"></i> No Chemicals, No Preservatives</li>
+                        </ul>
+                    </div>
+                    <div class="about-image reveal-scale">
+                        <img src="images/mill_machine.jpg" alt="Traditional Wood Press Oil Mill Machine" loading="lazy">
+                        <div class="about-stat-badge">
+                            <div class="stat-number">2+</div>
+                            <div class="stat-label">Years of Trust</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ======================
+             REVIEWS SECTION
+             ====================== -->
+        <section class="reviews" id="reviews">
+            <div class="container">
+                <h2 class="section-title">Customer Love</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">Real reviews from real customers who trust our oils for their families.</p>
+
+                <div class="reviews-grid">
+                    <div class="review-card reveal-card">
+                        <img src="images/review1.png" alt="Customer Review - Excellent Quality" class="review-img" loading="lazy">
+                    </div>
+                    <div class="review-card reveal-card">
+                        <img src="images/review2.png" alt="Customer Review - Great Taste" class="review-img" loading="lazy">
+                    </div>
+                    <div class="review-card reveal-card">
+                        <img src="images/review3.png" alt="Customer Review - Highly Recommended" class="review-img" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ======================
+             CONTACT SECTION
+             ====================== -->
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class="contact-box">
+                    <h2>Get In <em>Touch</em></h2>
+                    <p class="contact-subtitle">Have questions or want to place a bulk order? We're here to help.</p>
+                    
+                    <div class="contact-grid">
+                        <a href="tel:+919986740765" class="contact-item reveal-card">
+                            <i class="fas fa-phone-alt" style="color: var(--gold);"></i>
+                            <h4>Call Us</h4>
+                            <p>099867 40765</p>
+                        </a>
+                        
+                        <a href="https://wa.me/919986740765" target="_blank" rel="noopener" class="contact-item reveal-card">
+                            <i class="fab fa-whatsapp" style="color: #25D366;"></i>
+                            <h4>WhatsApp</h4>
+                            <p>Message Anytime</p>
+                        </a>
+
+                        <a href="https://maps.app.goo.gl/hwapJneSwGJmGXKx8" target="_blank" rel="noopener" class="contact-item reveal-card">
+                            <i class="fas fa-map-marker-alt" style="color: #EA4335;"></i>
+                            <h4>Visit Us</h4>
+                            <p>View on Google Maps</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ======================
+         FOOTER
+         ====================== -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section footer-brand">
+                    <a href="#home" class="logo">Village Oil Mill</a>
+                    <p>Pure, wooden-pressed goodness delivered from the heart of Raichur to your home.</p>
+                    <div class="footer-social">
+                        <a href="https://wa.me/919986740765" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="tel:+919986740765" aria-label="Phone"><i class="fas fa-phone"></i></a>
+                        <a href="https://maps.app.goo.gl/hwapJneSwGJmGXKx8" target="_blank" rel="noopener" aria-label="Location"><i class="fas fa-map-marker-alt"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#products">Our Oils</a></li>
+                        <li><a href="#process">Process</a></li>
+                        <li><a href="#about">Our Story</a></li>
+                        <li><a href="#reviews">Reviews</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section footer-info">
+                    <h4>Location</h4>
+                    <p>
+                        <a href="https://maps.app.goo.gl/hwapJneSwGJmGXKx8" target="_blank" rel="noopener" style="transition: color var(--transition-fast);">
+                            Dept of Processing and<br>
+                            Food Engineering,<br>
+                            CAE, UAS, Raichur,<br>
+                            Karnataka 584104
+                        </a>
+                    </p>
+                </div>
+                <div class="footer-section footer-info">
+                    <h4>Hours</h4>
+                    <p>Monday — Sunday<br>9:00 AM — 7:00 PM</p>
+                </div>
+            </div>
+            <div class="bottom-bar">
+                <p>&copy; 2026 Village Oil Mill Raichur. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/919986740765" target="_blank" rel="noopener" class="whatsapp-float" aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Scroll to Top -->
+    <a href="#home" class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+
+    <!-- GSAP Logic -->
+    <script src="js/script.js"></script>
+</body>
+</html>
